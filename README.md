@@ -1,2 +1,2 @@
 # codeq
- A collection of my solutions to simple, disparate coding problems from a mix of sources including [leetcode.com](https://leetcode.com/)
+ A collection of my solutions to simple, disparate coding questions from a mix of sources including [leetcode.com](https://leetcode.com/). I try to implement each solution in both Python and C++. 
