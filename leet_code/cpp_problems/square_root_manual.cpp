@@ -11,3 +11,25 @@ int sqrt(int n) {
     return -1; // didn't find sqrt
 }
 
+// time complexity O(log N)
+int sqrt_binary_search(int n, int min, int max) {
+    if (max < min) {
+        cout << "sqrt_fast: square root not found\n";
+        return -1; 
+    }
+    
+    int guess = (min + max) / 2;
+    if (guess * guess == n) {
+        cout << "sqrt_fast: found " << guess << "\n";
+        return guess;
+    } else if (guess * guess < n) { // guess was too low
+        return sqrt_binary_search(n, guess + 1, max);
+    } else { // guess was too high
+        return sqrt_binary_search(n, min, guess - 1);
+    }
+} 
+
+int sqrt_fast(int n) {
+    return sqrt_binary_search(n, 1, n); 
+    }
+
