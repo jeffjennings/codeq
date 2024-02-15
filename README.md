@@ -1,2 +1,2 @@
-# leet_code
-Self-paced workthrough of some [leetcode.com](https://leetcode.com/) and similar coding problems
+# codeq
+ A collection of my solutions to simple, disparate coding problems from a mix of sources including [leetcode.com](https://leetcode.com/)
