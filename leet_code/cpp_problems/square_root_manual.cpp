@@ -1,3 +1,8 @@
+// based on 'Cracking the Coding Interview', Laakmann McDowell (6th)
+// (edited and expanded a bit)
+// compile and execute on a mac with:
+// g++ square_root_manual.cpp -o square_root_manual
+// ./square_root_manual
 
 #include <iostream>
 using namespace std;
