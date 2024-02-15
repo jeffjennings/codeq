@@ -1,4 +1,7 @@
 
+#include <iostream>
+using namespace std;
+
 // time complexity O(sqrt n)
 int sqrt(int n) {
     for (int guess = 1; guess * guess <= n; guess++) {
@@ -33,3 +36,10 @@ int sqrt_fast(int n) {
     return sqrt_binary_search(n, 1, n); 
     }
 
+int main() {
+    int target;
+    cout << "Enter value you want sqrt of: ";
+    cin >> target;
+    sqrt(target);
+    sqrt_fast(target);
+}
