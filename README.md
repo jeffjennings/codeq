@@ -1,2 +1,2 @@
 # leet_code
-Self-paced workthrough of leetcode.com problems
+Self-paced workthrough of some [leetcode](leetcode.com) and similar coding problems
